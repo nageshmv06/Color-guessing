@@ -74,7 +74,7 @@ for(var i=0; i<squares.length; i++){
             h1.style.backgroundColor = pickedColor;
         }else{
             this.style.backgroundColor = "rgb(0, 0, 0)";
-            messageDisplay.textContent = "Try Again!!";
+            messageDisplay.textContent = "Retry!";
         }
     })
 }

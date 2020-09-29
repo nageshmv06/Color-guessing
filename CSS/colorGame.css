@@ -2,6 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 .square {
@@ -12,6 +13,7 @@ body {
     margin: 1.66%;
     border-radius: 15%;
     transition: background 0.6s;
+
 }
 
 #container {
@@ -28,7 +30,10 @@ h1 {
     text-transform: uppercase;
     line-height: 1.2;
     padding: 20px 0;
+    
 }
+
+
 
 #colorDisplay {
     font-size: 200%;
@@ -66,9 +71,34 @@ button {
     font-size: inherit;
     transition: all 0.3s;
     outline: none;
+
 }
 
 button:hover {
     color: white;
     background-color: steelblue;
+}
+
+
+
+@media (max-width: 524px) {
+    
+    h1 {
+        line-height: 0.8;
+        padding: 12px 0;
+    }
+    #message {
+        font-size: 17px;
+    }
+    #colorDisplay {
+        font-size: 140%;
+    }
+
+    .poi {
+        line-height: 100%;
+    }
+
+   button {
+       letter-spacing: -1px;
+   }
 }
